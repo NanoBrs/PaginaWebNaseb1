@@ -5,10 +5,18 @@
     "version": "0.2.0",
     "configurations": [
         {
+            "name": "Attach to Chrome",
+            "port": 9222,
+            "request": "attach",
+            "type": "pwa-chrome",
+            "webRoot": "${workspaceFolder}"
+        },
+    
+        {
             "type": "pwa-chrome",
             "request": "launch",
             "name": "Launch Chrome against localhost",
-            "url": "file:///C:/Users/Gaming/Desktop/HTML%20UDA/Version%202/indexv2.html",
+            "url": "file:///C:/AppServ/PAGINAS WEB/HTML UDA/Pagina web Naseb1/index.html",
             "webRoot": "${workspaceFolder}"
         }
     ]
