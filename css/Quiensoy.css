@@ -1,0 +1,91 @@
+#QuienSoy 
+{
+    flex-wrap: wrap;
+    width: 100%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    display: inline-block;
+    margin-bottom: 60px;
+
+}
+
+#QuienSoy .contenedor
+{
+    text-align: center;
+    
+    background:rgba(53, 5, 46, 0.5);
+    width: 60%;
+    height: 250px;
+
+    box-shadow:7px 13px 37px rgba(0, 0, 0, 0.7);
+    border: 1px solid rgba(19, 18, 19, 0.7);
+    margin-bottom: 20px;
+
+}
+
+#QuienSoy .contenedor h2
+{
+    text-shadow: rgb(165, 27, 27);
+    text-align: center;
+    color: rgb(255, 255, 255);
+    margin-top: 20px;
+    
+
+}
+
+#QuienSoy .contenedor p
+{
+    color: rgb(255, 255, 255);
+    margin: 20px;
+}
+
+.AsideD {
+    box-shadow:7px 13px 37px rgba(0, 0, 0, 0.7);
+    width: 16%;
+    background:rgba(0, 0, 0, 0.5);
+    float: right;
+    padding: 20px;
+    height: auto;
+    box-sizing: border-box;
+    margin-right:20px;
+    border: 1px solid rgba(106, 7, 106, 0.7);
+    margin-bottom: 20px;
+    color: rgb(255, 255, 255);
+  }
+.AsideD h2,h3
+{
+
+    text-align: center;
+    margin-bottom: 10px;
+
+}
+
+#QuienSoy .Publicidad
+{
+    width: 100%;
+    border: 1px solid rgba(106, 7, 106, 0.7);
+    margin-bottom: 10px;
+}
+
+
+.AsideI{
+    box-shadow:7px 13px 37px rgba(0, 0, 0, 0.7);
+    width: 16%;
+    background:rgba(0, 0, 0, 0.5);
+    float: left;
+    height: 250px;
+    padding: 20px;
+    box-sizing: border-box;
+    margin-left: 20px;
+    border: 1px solid rgba(106, 7, 106, 0.7);
+    color: rgb(255, 255, 255);
+    text-align: center;
+  }
+
+.AsideI p
+{
+    text-justify: distribute-all-lines;
+    margin-bottom: 10px
+}
+
