@@ -7,6 +7,7 @@
 @import url(login.css);
 @import url(registro.css);
 @import url(Quiensoy.css);
+@import url(Comentarios.css);
 *{
     margin: 0;
     padding: 0;

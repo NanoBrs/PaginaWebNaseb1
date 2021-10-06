@@ -1,0 +1,85 @@
+#Comentarios 
+{
+    text-align: center;
+    background:rgba(0, 0, 0, 0.7);
+    width: 600px;
+    margin-right:auto;
+    margin-left:auto;
+    box-shadow:7px 13px 37px rgba(0, 0, 0, 0.7);
+    border: 1px solid rgba(62, 5, 50, 0.7);
+    height: auto;
+    
+}
+
+
+#Comentarios .contenedor 
+{
+    padding: 15px;
+    width: 100%;
+    height: auto;
+    justify-content: center;
+    
+}
+
+#Comentarios label,p,h2{
+    color: aliceblue;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+    
+}
+
+
+
+#Comentarios .Entradas{
+    width: 100%;
+    background: rgba(0, 0, 0, 0.7);
+    color: aliceblue;
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 16px;
+    border: 1px solid rgba(62, 5, 50, 0.7)
+
+
+
+}
+#Enviar
+{
+    padding: 5px;
+}
+
+#Comentarios a
+{
+    text-decoration: none;
+    color: rgb(15, 125, 220);
+ 
+
+}
+
+#Comentarios .Botones
+{
+    width: 100%;
+    background: rgba(62, 5, 50, 0.7);
+    border: none;
+    padding: 12px;
+    color: white;
+    margin: 16px 0;
+    font-size: 16;
+}
+
+#Comentarios textarea
+{
+    min-width: 100%;
+    max-width: 100%;
+    max-height: 200px;
+    min-height: 200px;
+}
+
+@media (max-width:768px)
+{
+    #Comentarios  {
+        width: 400px;
+    }
+
+}
+
+
