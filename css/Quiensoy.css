@@ -117,13 +117,20 @@
 
 #QuienSoy .contenedor2
 {
-    text-align: center;
-    background:rgba(177, 176, 176, 0.5);
-    width: 100%;
-    height: auto;
-    box-shadow:7px 13px 37px rgba(0, 0, 0, 0.7);
-    border: 1px solid rgba(19, 18, 19, 0.7);
-    margin-bottom: 30px;
+    
+        font-family: Century Gothic,CenturyGothic,AppleGothic,sans-serif; 
+        color: #000000; 
+        font-size: 18px; 
+        font-weight: 400; 
+        text-align: center; 
+        background:rgba(79, 79, 79, 0.5);
+        margin: 0 0 25px; 
+        overflow: hidden; 
+        padding: 20px; 
+        border-radius: 35px 0px 35px 0px; 
+        -moz-border-radius: 35px 0px 35px 0px; 
+        -webkit-border-radius: 35px 0px 35px 0px; 
+        border: 1px solid rgba(106, 7, 106, 0.7);
 
     
     
