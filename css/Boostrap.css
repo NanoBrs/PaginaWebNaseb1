@@ -1,0 +1,25 @@
+
+.carousel-inner img {
+    width: 100%;
+    max-height: 460px;
+}
+
+.carousel-inner{
+ height: 460px;
+}
+
+#slider 
+{
+    
+    font-family: cursive;
+
+}
+#slider a
+{
+    background-color:rgb(60, 4, 35,0.9);
+    border: rgb(215, 23, 23);
+}
+#carouselExampleIndicators
+{
+    margin-bottom: 30px;
+}
