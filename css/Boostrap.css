@@ -23,3 +23,16 @@
 {
     margin-bottom: 30px;
 }
+.nav-item
+{
+    font-size: 20px;
+    border-color:rgba(1, 1, 1, 1);
+    margin-right: 10px;
+    border: 1px solid rgba(84, 84, 84, 0.7);
+    
+} 
+
+#BarNav
+{
+    background-color:rgb(26, 26, 26);
+}
