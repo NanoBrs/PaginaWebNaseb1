@@ -2,6 +2,7 @@
 .carousel-inner img {
     width: 100%;
     max-height: 460px;
+    min-height: 460px;
 }
 
 .carousel-inner{
@@ -35,4 +36,8 @@
 #BarNav
 {
     background-color:rgb(26, 26, 26);
+}
+.container-xl
+{
+    align-content: center;
 }

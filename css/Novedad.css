@@ -8,23 +8,38 @@
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
+    width: 100%;
 
+}
+#Novedad
+{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
 }
 
 #Novedad article{
     margin: 15px;
 }
 
+#Novedad .card
+{
+    width: 400px;
+    margin: 15px;
+
+}
+
 #Novedad img{
     width: 100%;
-    max-width: 350px;
-    height: 300px;
+    max-width: 400px;
+    height: 350px;
 
 }
 #VideoPrincipal
 {
     width: 100%;
-    max-width: 350px;
-    height: 300px;
+    max-width: 400px;
+    height: 350px;
 
 }

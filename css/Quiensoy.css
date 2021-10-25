@@ -14,19 +14,50 @@
 
 }
 
-#QuienSoy .contenedor
+#QuienSoy .container-xl
 {
     text-align: center;
-    background:rgba(177, 176, 176, 0.5);
+    background:rgba(85, 7, 94, 0.7);
     width: 100%;
-    height: 300px;
-
+    height: auto;
+    padding: 10px;
+    color: black;
     box-shadow:7px 13px 37px rgba(0, 0, 0, 0.7);
     border: 1px solid rgba(19, 18, 19, 0.7);
-    margin-bottom: 30px;
+    border-radius: 5px;
+  
+
+}
+.accordion-item
+{
+    text-align: center;
+    background:rgba(85, 7, 94, 0.7);
+    width: 100%;
+    height: auto;
+    padding: 10px;
+    box-shadow:7px 13px 37px rgba(0, 0, 0, 0.7);
+    border: 1px solid rgba(255, 255, 255, 0.7);
+    
+  
+
+}
+.accordion-button 
+{
+    text-align: center;
+    
+    width: 100%;
+    height: auto;
+    padding: 10px;
+    box-shadow:7px 13px 37px rgba(0, 0, 0, 0.7);
+    border: 1px solid rgba(255, 255, 255, 0.7);
+    
 
 }
 
+.accordion-body
+{
+    color: white;
+}
 #QuienSoy .contenedor h2
 {
 
@@ -55,36 +86,14 @@
 }
 
 #QuienSoy .Publicidad
-{
-    width: 100%;
+{   
+    margin-left: 15%;
+    width: 70%;
     border: 1px solid rgba(106, 7, 106, 0.7);
-    margin-bottom: 10px;
+  
 }
 
-.AsideD {
-    box-shadow:7px 13px 37px rgba(0, 0, 0, 0.7);
-    width: 25%;
-    background:rgba(177, 176, 176, 0.5);
-    padding: 20px;
-    margin: 20px;
-    height: auto;
-    border: 1px solid rgba(106, 7, 106, 0.7);
-    color: rgb(0, 0, 0);
-  }
 
-.AsideI{
-    box-shadow:7px 13px 37px rgba(0, 0, 0, 0.7);
-    width: 25%;
-    background:rgba(177, 176, 176, 0.5);
-    height: auto;
-    padding: 20px;
-    margin: 20px;
-    box-sizing: border-box;
-    margin-left: 20px;
-    border: 1px solid rgba(106, 7, 106, 0.7);
-    color: rgb(0, 0, 0);
-    text-align: center;
-  }
 
  
 
@@ -106,16 +115,10 @@
 
 
 
-#QuienSoy .Publicidad2
-{
-    width: 80%;
-    height: 80%;
-    border: 1px solid rgba(106, 7, 106, 0.7);
-    
-}
 
 
-#QuienSoy .contenedor2
+
+.container-x
 {
     
         font-family: Century Gothic,CenturyGothic,AppleGothic,sans-serif; 
@@ -137,8 +140,28 @@
 
 }
 
-.AsideI2 .info-plataforma
-{
+.card-border
+{   
+    background:rgba(85, 7, 94, 0.7);
+    border: solid 10px rgba(85, 7, 94, 0.7);;
+    border-radius: 20px;
+    overflow: hidden;
+    transition: all ease-out 0.2s;
     
-    width: 100%;
+}
+
+.card-border:hover
+{
+    transform: scale(1.05);
+}
+
+
+.card-text,.card-title
+{
+    color: white;
+}
+
+#Titulo2,.Titulo2
+{
+    color: white;
 }
