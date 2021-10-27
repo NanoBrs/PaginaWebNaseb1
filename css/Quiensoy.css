@@ -144,7 +144,7 @@
 
 }
 
-.card-border
+#QuienSoy .card-border
 {   
     background:rgba(85, 7, 94, 0.7);
     border: solid 10px rgba(85, 7, 94, 0.7);;
@@ -160,7 +160,7 @@
 }
 
 
-.card-text,.card-title
+#QuienSoy .card-text,.card-title
 {
     color: white;
 }

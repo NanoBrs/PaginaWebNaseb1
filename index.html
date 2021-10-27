@@ -122,49 +122,92 @@
         
         
         <main>
-            <div class="container-xl">
-                <section id="Bienvenidos">
-                    <h2>¡Bienvenido! <br> ¿Que es NaSeb1?</h2>
-                    <p>NaSeb1 es el nombre artistico/musical de un proyecto independiente como solista oriundo de Copiapó, iniciado a mediados de 2020 
-                        por un Joven de aquel entonces 18 años,constituyendo sus canciones en un principio con nada mas que una voz y una guitarra, 
-                        componiendo canciones cuyas letras abordan distintas temáticas como la nostalgia,la rutina,etc. Proyecto principalmente impulsado
-                     por el deseo de desahogar y plasmar sentimientos y/o 
-                    pensamientos en canciones con la esperanza de ser escuchadas contando actualmente con varias canciones subidas a las distintas plataformas digitales</p>
-    
-                </section>
-                
-                
-
-             
-
-            </div>
-            
-            
-            <div id="Novedad" class="container-fluid">
-                <section>
-                    <h3>Lo último de NaSeb1</h3>
+            <div class="container-sm">
+                <div class="row">
+                    <div class="col-12 col-lg-4 mt-4 my-lg-4">
+                        <div id="Reproductor">
+                            <div class="player">
+                                <div class="imgBx">
+                                    <img src="img/Acto de amor (7).png" alt="">
+                                </div>
+                                <audio controls >
+                                    <source src="multimedia/ActoDeAMor.mp3" type="audio/mp3">  
+                                </audio>
                     
-                    
-                    <div class="contenedor">
-                        <div class="card" >
-                            <iframe id="VideoPrincipal" width="560" height="315" src="https://www.youtube.com/embed/hJI6_1Z2Ptg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope;
-                                     picture-in-picture" allowfullscreen></iframe>
-                            <div class="card-body bg-black">
-                              <h6 class="card-title">Single: "Viejo Hogar"</h5>
                             </div>
+                            
+            
                         </div>
-                        <div class="card" >
-                            <a href="https://open.spotify.com/album/2fbVscrwZACzWElLtKXTVf?si=-UH2Na6MQ5OFUori0mBLXA&dl_branch=1" target="_blank">
-                                <img src="https://lite-images-i.scdn.co/image/ab67616d00001e02330a7f181f655d867254d826" alt="Portada" title="Escuchar en spotify"> </a>        
-                            <div class="card-body bg-black">
-                                <h5 class="card-title">Single: "Desertor de ti</h5>
-                            </div>
-                            </div>
-                        
-                        
-    
+
                     </div>
-                </section>
+
+                    <div id="Texto" class="col-11 col-lg-7 mt-4 my-lg-4">
+                        <h3 class=>Acto de amor</h3>
+                        <h3 class="h5">Naseb1 & Emilia Rojas</h3>
+                        <p class="text-white p-2">Lorem ipsum dolor sitamet consectet
+                            ur, adipisicing elit. Asperiores ea
+                            rum non officia unde iusto quam qu
+                            os nulla, in soluta ipsam delectus
+                             nisi est optio amet similique doloremque labore obcaecati recusandae.
+                        </p>
+                        <p class="text-white p-2">Lorem ipsum dolor sitamet consectet
+                            ur, adipisicing elit. Asperiores ea
+                            rum non officia unde iusto quam qu
+                            os nulla, in soluta ipsam delectus
+                             nisi est optio amet similique doloremque labore obcaecati recusandae.
+                        </p>
+                    </div>
+
+                </div>
+
+                <div class="row">
+                    <div id="Texto" class="col-11 col-lg-7 mt-4 my-lg-4">
+                        <h3 class=>ViejoHogar</h3>
+                        <h3 class="h5">Naseb1</h3>
+                        <p class="text-white p-2">Lorem ipsum dolor sitamet consectet
+                            ur, adipisicing elit. Asperiores ea
+                            rum non officia unde iusto quam qu
+                            os nulla, in soluta ipsam delectus
+                             nisi est optio amet similique doloremque labore obcaecati recusandae.
+                        </p>
+                        <p class="text-white p-2">Lorem ipsum dolor sitamet consectet
+                            ur, adipisicing elit. Asperiores ea
+                            rum non officia unde iusto quam qu
+                            os nulla, in soluta ipsam delectus
+                             nisi est optio amet similique doloremque labore obcaecati recusandae.
+                        </p>
+                    </div>
+
+                    <div class="col-12 col-lg-4 mt-4 my-lg-4">
+                        <div id="Reproductor">
+                            <div class="player">
+                                <div class="imgBx">
+                                    <img src="https://i.scdn.co/image/ab67616d0000b273c5c5709f9c252ce5913a07e5" alt="">
+                                </div>
+                                <audio controls >
+                                    <source src="multimedia/ViejoHogar.mp3" type="audio/mp3">  
+                                </audio>
+                    
+                            </div>
+                            
+            
+                        </div>
+
+                    </div>
+
+                    
+
+                </div>
+            </div>
+
+
+            
+            
+
+            
+
+            <div id="Novedad" class="container-fluid">
+           
                 <h2>Proximas Presentaciones</h2>
 
 
@@ -204,7 +247,36 @@
                   </table>
 
             </div>
-           
+            
+            <div id="Contacto" class="container" >
+                <form >
+                    <h2>Contacto rapido</h2>
+                    <div class="form-group">
+                      <label class="text-white" for="exampleInputEmail1">Nombre Artistico</label>
+                      <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Ingrese su nombre y apellido">
+                    </div>
+
+                    <div class="form-group ">
+                        <label class="text-white" for="exampleInputEmail1">Correo Electronico</label>
+                        <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Ingrese correo">
+                      </div>
+                    <div class="form-group pb-2">
+                        <label class="text-white" for="exampleInputEmail1">Motivo</label>
+                        <select class="form-control ">
+                            <option>Seleccione una opcion</option>
+                            <option>Demanda Civil</option>
+                            
+                            <option>Colaboración Musical</option>
+
+                            <option>Otros </option>
+                          </select>
+                      </div>
+                    
+                
+                    <button type="submit" class="btn btn-secondary">Enviar</button>
+                  </form>
+            </div>
+            
            
 
             
