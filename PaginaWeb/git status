@@ -1,0 +1,101 @@
+* [33mcommit 59c8dfa8362246b5b9b6275334092e4b0bdb4cbd[m[33m ([m[1;36mHEAD -> [m[1;32mBootstrap[m[33m, [m[1;32mVersiones[m[33m)[m
+[31m|[m Author: Luciano Berrios <Luciano.Berrios.20@alumnos.uda.cl>
+[31m|[m Date:   Wed Oct 27 13:51:44 2021 -0300
+[31m|[m 
+[31m|[m     Version 2.0
+[31m|[m 
+* [33mcommit 2f8d3965397b03ecc037b85767dbad398c515630[m
+[31m|[m Author: Luciano Berrios <Luciano.Berrios.20@alumnos.uda.cl>
+[31m|[m Date:   Wed Oct 27 11:20:41 2021 -0300
+[31m|[m 
+[31m|[m     Agregado Nuevo Elemento Tarea 3 Bootstrap
+[31m|[m 
+* [33mcommit 7e681d4131bf8be06c0a7d8ef8be98a16b44337c[m[33m ([m[1;32mNuevoHome[m[33m)[m
+[31m|[m Author: Luciano Berrios <Luciano.Berrios.20@alumnos.uda.cl>
+[31m|[m Date:   Tue Oct 26 23:13:24 2021 -0300
+[31m|[m 
+[31m|[m     Retoques Finales
+[31m|[m 
+* [33mcommit 25d3ca622c5f56d44136bf2bf6cc47a9963916a6[m
+[31m|[m Author: Luciano Berrios <Luciano.Berrios.20@alumnos.uda.cl>
+[31m|[m Date:   Mon Oct 25 19:43:10 2021 -0300
+[31m|[m 
+[31m|[m     Actualización login/Comentarios/registro
+[31m|[m 
+* [33mcommit d162d784ff7ed01a8e8261d7dc356c365db09c0b[m
+[31m|[m Author: Luciano Berrios <Luciano.Berrios.20@alumnos.uda.cl>
+[31m|[m Date:   Sun Oct 24 22:19:10 2021 -0300
+[31m|[m 
+[31m|[m     Actualización Bootstrap QuienSoy
+[31m|[m 
+* [33mcommit 458f018094b3a420f41d028657e22f3aef65b641[m
+[31m|[m Author: Luciano Berrios <Luciano.Berrios.20@alumnos.uda.cl>
+[31m|[m Date:   Thu Oct 21 23:24:01 2021 -0300
+[31m|[m 
+[31m|[m     Actualización barra de navegación
+[31m|[m 
+* [33mcommit b224766ab3261e9048ffb78483b3bb0bd1def0a0[m
+[31m|[m Author: Luciano Berrios <Luciano.Berrios.20@alumnos.uda.cl>
+[31m|[m Date:   Wed Oct 20 13:30:43 2021 -0300
+[31m|[m 
+[31m|[m     Actualización Banner Bootstrap
+[31m|[m 
+* [33mcommit 2ef62b6513fdd086d8c53f119122cc18bfa6110d[m
+[31m|[m Author: Luciano Berrios <Luciano.Berrios.20@alumnos.uda.cl>
+[31m|[m Date:   Wed Oct 20 11:56:07 2021 -0300
+[31m|[m 
+[31m|[m     Version 1.0
+[31m|[m 
+* [33mcommit 8585255cd72f1047fe1bedcc52d23e87ea1e1e70[m[33m ([m[1;32mmaster[m[33m, [m[1;32mdesarrollo[m[33m)[m
+[31m|[m Author: Luciano Berrios <Luciano.Berrios.20@alumnos.uda.cl>
+[31m|[m Date:   Wed Oct 6 10:37:34 2021 -0300
+[31m|[m 
+[31m|[m     Tarea 2 y tarea 3 terminada
+[31m|[m 
+* [33mcommit eead4dc314606fbdf3391003e4f1f08bcbcc5e5c[m
+[31m|[m Author: Luciano Berrios <Luciano.Berrios.20@alumnos.uda.cl>
+[31m|[m Date:   Wed Oct 6 10:27:18 2021 -0300
+[31m|[m 
+[31m|[m     Nueva distribucion en apartado Quien soy
+[31m|[m 
+* [33mcommit 67e186fd6a6d3708f78e5cf0662af067d6d16c6e[m
+[31m|[m Author: Luciano Berrios <Luciano.Berrios.20@alumnos.uda.cl>
+[31m|[m Date:   Thu Sep 30 15:13:56 2021 -0300
+[31m|[m 
+[31m|[m     Finalización pagina 'Quien Soy'.
+[31m|[m 
+* [33mcommit 5b178465092f2a62319b90d4ad182e8790f8d02b[m
+[31m|[m Author: Luciano Berrios <Luciano.Berrios.20@alumnos.uda.cl>
+[31m|[m Date:   Thu Sep 30 12:32:11 2021 -0300
+[31m|[m 
+[31m|[m     Mejoras pequeñas en Registro y login
+[31m|[m 
+* [33mcommit b80a7d2a88dfd634a1c19e810c2b1862aa409818[m
+[31m|[m Author: Luciano Berrios <Luciano.Berrios.20@alumnos.uda.cl>
+[31m|[m Date:   Wed Sep 29 23:28:21 2021 -0300
+[31m|[m 
+[31m|[m     Inicio de Pagina 'Quien soy' y arreglos varios
+[31m|[m 
+* [33mcommit c79adcd8ce5f0621a459025493d65e75f795e2c2[m
+[31m|[m Author: Luciano Berrios <Luciano.Berrios.20@alumnos.uda.cl>
+[31m|[m Date:   Wed Sep 29 14:24:53 2021 -0300
+[31m|[m 
+[31m|[m     Actualización Login y registro
+[31m|[m 
+* [33mcommit 3ab2cd172e695f73878bafee4e78abbdae6298d5[m
+[31m|[m Author: Luciano Berrios <Luciano.Berrios.20@alumnos.uda.cl>
+[31m|[m Date:   Tue Sep 28 23:16:05 2021 -0300
+[31m|[m 
+[31m|[m     Adaptación login con html
+[31m|[m 
+* [33mcommit bb9bdc123e6ec541e0b51890daa10d23c3530e29[m
+[31m|[m Author: Luciano Berrios <Luciano.Berrios.20@alumnos.uda.cl>
+[31m|[m Date:   Mon Sep 27 22:49:32 2021 -0300
+[31m|[m 
+[31m|[m     Agregando los estilos css
+[31m|[m 
+* [33mcommit e5c126c71acdcb2f1301a01438b65de4784a3d92[m
+  Author: Luciano Berrios <Luciano.Berrios.20@alumnos.uda.cl>
+  Date:   Mon Sep 27 20:41:14 2021 -0300
+  
+      Actualización Index con css

@@ -1,0 +1,36 @@
+#plataformas 
+{
+    background:rgba(255, 255, 255, 0.3);
+    color: #fff;
+    text-align: center;
+}
+
+#plataformas .contenedor{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+
+
+}
+.info-plataforma
+{
+    
+    margin: 20px;
+
+}
+
+.info-plataforma img
+{
+    max-width: 100px;
+    max-height: 80px;
+    min-width: 10px;
+    min-height: 80px;
+
+
+
+}
+.info-plataforma h4,a
+{
+    text-decoration: none;
+}

@@ -1,0 +1,71 @@
+#login 
+{
+    text-align: center;
+    background:rgba(0, 0, 0, 0.7);
+    width: 70%;
+    max-width: 600px;
+    
+    margin-right:auto;
+    margin-left:auto;
+    box-shadow:7px 13px 37px rgba(0, 0, 0, 0.7);
+    border: 1px solid rgba(62, 5, 50, 0.7);
+    height: auto;
+    border-radius: 10px;
+    padding: 15px;
+    
+}
+
+
+#login .container-lg
+{
+    padding: 15px;
+    width: auto;
+    height: auto;
+    justify-content: center;
+    
+}
+
+#login label,p,h2{
+    color: aliceblue;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+    
+}
+
+
+
+#login .Entradas{
+    width: 100%;
+    background: rgba(0, 0, 0, 0.7);
+    color: aliceblue;
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 16px;
+    border: 1px solid rgba(62, 5, 50, 0.7)
+
+
+
+}
+#Enviar
+{
+    padding: 5px;
+}
+
+#login a
+{
+    text-decoration: none;
+    color: rgb(15, 125, 220);
+ 
+
+}
+
+#login .Botones
+{
+    width: 100%;
+    background: rgba(62, 5, 50, 0.7);
+    border: none;
+    padding: 12px;
+    color: white;
+    margin: 16px 0;
+    font-size: 16;
+}
