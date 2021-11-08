@@ -1,3 +1,12 @@
+<?php 
+    include("conexion.php");
+    $con=conectar();
+
+    $sql="SELECT *  FROM usuarios";
+    $query=mysqli_query($con,$sql);
+
+    $row=mysqli_fetch_array($query);
+?>
 <!DOCTYPE html>
 <html>
     <head>
@@ -123,166 +132,31 @@
 
         </header>
     
-        
+ 
         <main>
-            <div class="container-sm">
-                <div class="row">
-                    <div class="col-12 col-lg-4 mt-4 my-lg-4">
-                        <div id="Reproductor">
-                            <div class="player">
-                                <div class="imgBx">
-                                    <img src="img/Acto de amor (7).png" alt="">
-                                </div>
-                                <audio controls >
-                                    <source src="multimedia/ActoDeAMor.mp3" type="audio/mp3">  
-                                </audio>
-                    
-                            </div>
-                            
-            
-                        </div>
+ 
 
-                    </div>
-
-                    <div id="Texto" class="col-11 col-lg-7 mt-4 my-lg-4">
-                        <h3 class=>Acto de amor</h3>
-                        <h3 class="h5">Naseb1 & Emilia Rojas</h3>
-                        <p class="text-white p-2">Lorem ipsum dolor sitamet consectet
-                            ur, adipisicing elit. Asperiores ea
-                            rum non officia unde iusto quam qu
-                            os nulla, in soluta ipsam delectus
-                             nisi est optio amet similique doloremque labore obcaecati recusandae.
-                        </p>
-                        <p class="text-white p-2">Lorem ipsum dolor sitamet consectet
-                            ur, adipisicing elit. Asperiores ea
-                            rum non officia unde iusto quam qu
-                            os nulla, in soluta ipsam delectus
-                             nisi est optio amet similique doloremque labore obcaecati recusandae.
-                        </p>
-                    </div>
-
+            <section id="login">
+                <div class="container-lg">
+                    <h2> Iniciar Sesión</h2>
+                    <form action="login.html" method="post">
+                        <input  class="Entradas" placeholder="Usuario" id="Usuario" type="text" name="usuario">
+    
+ 
+                        <input class="Entradas" placeholder="Contraseña" type="password" name="contraseña">
+    
+                        
+                        <input  class="Botones" id="Enviar" type="submit"  value="Iniciar sesión" />
+                        <p>¿No tienes una cuenta?<a href="registro.php"> Registrate</a></p>
+    
+                    </form>
                 </div>
-
-                <div class="row">
-                    <div id="Texto" class="col-11 col-lg-7 mt-4 my-lg-4">
-                        <h3 class=>ViejoHogar</h3>
-                        <h3 class="h5">Naseb1</h3>
-                        <p class="text-white p-2">Lorem ipsum dolor sitamet consectet
-                            ur, adipisicing elit. Asperiores ea
-                            rum non officia unde iusto quam qu
-                            os nulla, in soluta ipsam delectus
-                             nisi est optio amet similique doloremque labore obcaecati recusandae.
-                        </p>
-                        <p class="text-white p-2">Lorem ipsum dolor sitamet consectet
-                            ur, adipisicing elit. Asperiores ea
-                            rum non officia unde iusto quam qu
-                            os nulla, in soluta ipsam delectus
-                             nisi est optio amet similique doloremque labore obcaecati recusandae.
-                        </p>
-                    </div>
-
-                    <div class="col-12 col-lg-4 mt-4 my-lg-4">
-                        <div id="Reproductor">
-                            <div class="player">
-                                <div class="imgBx">
-                                    <img src="https://i.scdn.co/image/ab67616d0000b273c5c5709f9c252ce5913a07e5" alt="">
-                                </div>
-                                <audio controls >
-                                    <source src="multimedia/ViejoHogar.mp3" type="audio/mp3">  
-                                </audio>
-                    
-                            </div>
-                            
-            
-                        </div>
-
-                    </div>
-
-                    
-
-                </div>
-            </div>
-
-
-            
-            
-
-            
-
-            <div id="Novedad" class="container-fluid">
-           
-                <h2>Proximas Presentaciones</h2>
-
-
-            </div>
-            
-            <div class="container-md">
-                <table class="table table-striped table-dark">
-                    <thead>
-                      <tr>
-                        <th scope="col">Fecha</th>
-                        <th scope="col">Ciudad</th>
-                        <th scope="col">Dirección</th>
-                        <th scope="col">Horario</th>
-                      </tr>
-                    </thead>
-                    <tbody>
-                      <tr>
-                        <th scope="row">12/11/2021</th>
-                        <td>Concepción</td>
-                        <td>Calle siempre viva 777</td>
-                        <td>Por definir</td>
-                      </tr>
-                      <tr>
-                        <th scope="row">23/11/2021</th>
-                        <td>La Serena</td>
-                        <td>Cuatro Esquinas #2323</td>
-                        <td>Por Definir</td>
-                      </tr>
-                      <tr>
-                        <th scope="row">07/12/2021</th>
-                        <td>Copiapó
-                        </td>
-                        <td>La alameda #441</td>
-                        <td>21:00 hrs</td>
-                      </tr>
-                    </tbody>
-                  </table>
-
-            </div>
-            
-            <div id="Contacto" class="container" >
-                <form >
-                    <h2>Contacto rapido</h2>
-                    <div class="form-group">
-                      <label class="text-white" for="exampleInputEmail1">Nombre Artistico</label>
-                      <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Ingrese su nombre y apellido">
-                    </div>
-
-                    <div class="form-group ">
-                        <label class="text-white" for="exampleInputEmail1">Correo Electronico</label>
-                        <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Ingrese correo">
-                      </div>
-                    <div class="form-group pb-2">
-                        <label class="text-white" for="exampleInputEmail1">Motivo</label>
-                        <select class="form-control ">
-                            <option>Seleccione una opcion</option>
-                            <option>Demanda Civil</option>
-                            
-                            <option>Colaboración Musical</option>
-
-                            <option>Otros </option>
-                          </select>
-                      </div>
-                    
+               
                 
-                    <button type="submit" class="btn btn-secondary">Enviar</button>
-                  </form>
-            </div>
-            
-           
+ 
+            </section>
 
-            
+
 
 
             <section id="plataformas">
@@ -317,9 +191,10 @@
                 </div>
 
             </section>
+
             <footer>
                 <div id="contenedor">
-                    <p class="copy">NaSeb1 V.1 &copy; 2021 <br>Pagina web Programada por Luciano Berrios . Video de fondo proporcionado por AyudaPanel </p>
+                    <p class="copy">NaSeb1 &copy; 2021 <br>Pagina web Programada por Luciano Berrios. Video de fondo proporcionado por AyudaPanel </p>
                     <div class="sociales">
                         <a class="icon-youtube" href=""></a>
                         <a class="icon-instagram-filled" href=""></a>
